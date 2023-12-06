@@ -17,7 +17,7 @@ steps:
     azureResourceManagerConnection: 'ARM-Pipeline-connection'
     subscriptionId: 'a6f683e0-1d21-48ed-8994-78b8f3a273f0'
     action: 'Create Or Update Resource Group'
-    resourceGroupName: 'ARM-template-deployments'
+    resourceGroupName: 'rm-backend-rg'
     location: 'East US'
     templateLocation: 'URL of the file'
     csmFileLink: 'https://raw.githubusercontent.com/Amit-Ghanwat/ARM-Deployments/main/create_web_app/azuredeploy.json'
