@@ -1,0 +1,2 @@
+powershell -Command "(New-Object Net.WebClient).DownloadFile('https://go.microsoft.com/fwlink/?linkid=2216182&clcid=0x409', 'C:\Users\ADMIN2~1\AppData\Local\Temp\StorageExplorer-windows-x64.exe')"
+start /wait C:\Users\ADMIN2~1\AppData\Local\Temp\StorageExplorer-windows-x64.exe /VERYSILENT /NORESTART /ALLUSERS
